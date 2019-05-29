@@ -267,7 +267,7 @@ public final class ToastUtils {
         });
     }
 
-    private static void show(final View view, final int duration) {
+    public static void show(final View view, final int duration) {
         HANDLER.post(new Runnable() {
             @Override
             public void run() {
